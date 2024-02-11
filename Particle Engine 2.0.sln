@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProtoEngine", "..\ProtoEngine\ProtoEngine.csproj", "{EB27B4B4-07B7-44E4-B7BC-B05790F54443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Particle Engine 2.0", "Particle Engine 2.0.csproj", "{7A7FD820-E2C4-42EF-98F6-E6B115BDC78D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB27B4B4-07B7-44E4-B7BC-B05790F54443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB27B4B4-07B7-44E4-B7BC-B05790F54443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB27B4B4-07B7-44E4-B7BC-B05790F54443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB27B4B4-07B7-44E4-B7BC-B05790F54443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A7FD820-E2C4-42EF-98F6-E6B115BDC78D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A7FD820-E2C4-42EF-98F6-E6B115BDC78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A7FD820-E2C4-42EF-98F6-E6B115BDC78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A7FD820-E2C4-42EF-98F6-E6B115BDC78D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
