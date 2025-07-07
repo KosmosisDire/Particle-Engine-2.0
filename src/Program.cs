@@ -19,7 +19,7 @@ public class ParticleEngineApp : Application
     {
         base.Setup();
         
-        particleSystem = new ParticleSystem(1000000,  0.5f, new(1000, 1000), true);
+        particleSystem = new ParticleSystem(4000000,  0.3f, new(1000, 1000), true);
 
         window.Style.fontSize = window.Width / 1920f * 16f;
         window.ScaleRenderTexture(1920f / window.Width);
@@ -91,7 +91,7 @@ public class ParticleEngineApp : Application
                     var particle = particleSystem.AddParticle(mousePos, new(0), color);
                     if (particle == null) continue;
 
-                    particleSystem.AddLink(random.Next(lastParticle - 20, lastParticle), particle.Value, 0);
+                    // particleSystem.AddLink(random.Next(lastParticle - 20, lastParticle), particle.Value, 0);
                     lastParticle = particle.Value;
                 }
                 else
